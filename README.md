@@ -1,156 +1,166 @@
-🎬 Netflix Catalog Analytics
-📊 Data Analysis Project | Python • Pandas • Power BI
-🏢 Project Context
+🎬 Netflix Catalog Intelligence Analysis
+End-to-End Data Analytics Project | Python & Business Intelligence
+📌 Executive Summary
 
-As a Data Analyst, the objective of this project is to analyze the Netflix catalog to provide strategic insights for business decision-making.
+This project analyzes the Netflix content catalog to extract strategic insights that support data-driven decision-making.
 
-The management team aims to better understand:
+The objective is to understand content distribution, production trends, genre dominance, age classification patterns, and the evolution of the catalog over time.
 
-📈 Content performance and trends
+The project follows a complete analytics workflow:
 
-🎥 Distribution of Movies vs TV Shows
+Data Exploration → Data Cleaning → Feature Engineering → Visualization → Business Insights → BI Dashboard Preparation
 
-🌍 Production countries
+🎯 Business Objectives
 
-🎭 Dominant genres
+The analysis aims to answer key business questions:
 
-🔞 Age classifications
+What is the distribution between Movies and TV Shows?
 
-📅 Evolution of the catalog over time
+Which genres dominate the catalog?
 
-This project covers the full analytics lifecycle:
+Which countries contribute the most content?
 
-🔎 Exploration → 🧹 Cleaning → 📊 Visualization → 💡 Insights → 📈 BI Dashboard Preparation
+What are the most common age classifications?
 
-🎯 Project Objectives
+How has the catalog evolved over time?
 
-✔ Perform Exploratory Data Analysis (EDA)
+What trends can guide future content strategy?
 
-✔ Clean and transform raw data
+🛠️ Technical Stack
 
-✔ Generate clear and actionable visualizations
+Python
 
-✔ Extract business insights
+Pandas
 
-✔ Prepare dataset for an interactive Power BI dashboard
+Matplotlib
 
-🛠️ Tech Stack
+Seaborn
 
+Jupyter Notebook
 
+Power BI (Dashboard phase)
 
+📂 Project Workflow
+1️⃣ Exploratory Data Analysis (EDA)
 
+Dataset structure and type inspection
 
+Missing values assessment
 
+Duplicate detection
 
+Frequency distribution analysis
 
+Preliminary visual exploration
 
+Key variables analyzed:
 
-🔎 1️⃣ Exploratory Data Analysis (EDA)
+Content Type (Movie vs TV Show)
 
-Dataset structure analysis (info(), describe())
+Rating Classification
 
-Missing values detection
+Genre (listed_in)
 
-Duplicate identification
+Country of Production
 
-Distribution analysis:
+Date Added
 
-Movies vs TV Shows
+2️⃣ Data Cleaning & Transformation
 
-Ratings
+To ensure analytical accuracy and dashboard readiness:
 
-Genres
+Missing values handled appropriately
 
-Countries
+Duplicate records removed
 
-Initial visualizations (bar charts, histograms, countplots)
+Multi-value columns normalized (country, listed_in)
 
-🧹 2️⃣ Data Cleaning & Preparation
+Date fields converted to datetime format
 
-Handling missing values
+New analytical features created:
 
-Removing duplicates
+Year Added
 
-Splitting multi-value columns (country, listed_in)
+Month Added
 
-Feature engineering:
+Duration (minutes)
 
-year_added
+Data consistency harmonized across fields
 
-month_added
+A cleaned dataset was exported for BI integration.
 
-duration_minutes
-
-Formatting consistency (dates, duration, content type)
-
-The cleaned dataset is exported for BI integration.
-
-📊 3️⃣ Business Analysis & Visualizations
+3️⃣ Analytical Insights & Visualizations
 🎥 Content Distribution
 
-Movies vs TV Shows ratio
+Movies represent the majority of the catalog.
 
-Age rating distribution
-
-🌍 Country Analysis
-
-Top producing countries
-
-Country vs rating analysis
+TV Shows show progressive growth over recent years.
 
 🎭 Genre Analysis
 
-Most frequent genres
+Drama and Comedy dominate the catalog.
 
-Category dominance
+Strong presence of international content categories.
+
+🌍 Geographic Insights
+
+Production is concentrated in a limited number of countries.
+
+The United States leads in total content volume.
+
+🔞 Age Classification
+
+TV-MA and TV-14 are the most frequent classifications.
+
+Content is largely oriented toward mature audiences.
 
 📈 Time Evolution
 
-Content added per year
+Significant growth phase between 2015 and 2020.
 
-Growth trends
+Catalog expansion reflects platform scaling strategy.
 
-Series count between 2011–2021
+📊 Key Business Insights
 
-💡 Key Insights
+The platform prioritizes narrative-driven content (Drama, Comedy).
 
-🎬 Movies dominate the catalog.
+Growth acceleration period suggests aggressive content acquisition.
 
-🎭 Drama and Comedy are the most frequent genres.
+Content maturity classification indicates adult-oriented strategy.
 
-🌍 A small number of countries dominate production.
-
-📈 Strong growth between 2015–2020.
-
-🔞 TV-MA and TV-14 are the most common classifications.
-
-These findings support strategic decisions related to content acquisition and production.
+Geographic concentration highlights potential expansion markets.
 
 📈 Power BI Dashboard (Next Phase)
 
-The cleaned dataset will be integrated into Power BI to create:
+The cleaned dataset will be integrated into Power BI to develop an executive dashboard featuring:
 
 Interactive filters (Type, Genre, Country, Year)
 
-KPI indicators
+KPI cards
 
-Dynamic trend analysis
+Trend analysis
 
-Executive-level insights dashboard
+Comparative insights
+
+Executive summary view
+
+This dashboard will support strategic content and acquisition decisions.
 
 🚀 Skills Demonstrated
 
-Data Cleaning
+End-to-End Data Analytics
+
+Data Cleaning & Feature Engineering
 
 Exploratory Data Analysis
 
-Data Visualization
+Business-Oriented Data Interpretation
 
-Business Intelligence Preparation
+Visualization & Storytelling
 
-Insight Communication
+BI Data Preparation
 
 👩‍💻 Author
 
 Safa Nya
-📊 Data Analyst | Python | Business Intelligence
+Data Analyst | Python | Business Intelligence
