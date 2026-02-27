@@ -1,101 +1,65 @@
-🎬 Netflix Data Analytics Dashboard
-🔎 Nettoyage, Analyse & Visualisation Interactive avec Python & Power BI
+# 📊 Netflix Data Analytics Dashboard  
 
-🚀 Project Overview
+### 🔎 Data Cleaning • Analysis • Interactive Visualization with Python & Power BI  
 
-This project demonstrates a complete Data Analytics workflow applied to the Netflix catalog dataset.
+<p align="left">
+  <img src="https://img.shields.io/badge/TOOL-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LIBRARY-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VISUALIZATION-Matplotlib-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/VISUALIZATION-Seaborn-4C72B0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/DASHBOARD-PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+</p>
 
-The objective is to transform raw content data into structured analytical insights and prepare it for an interactive Business Intelligence dashboard.
+---
 
-🎯 Business Objectives
+## 🚀 Project Overview
 
-📊 Analyze Movies vs TV Shows distribution
+This project demonstrates a complete **Data Analytics workflow** applied to the Netflix catalog dataset.
 
-🎭 Identify dominant genres
+The objective is to transform raw content data into structured analytical insights and prepare it for an interactive **Business Intelligence dashboard**.
 
-🌍 Analyze production countries
+---
 
-🔞 Study age classification patterns
+## 🎯 Business Objectives
 
-📈 Track catalog evolution over time
+- 📊 Analyze Movies vs TV Shows distribution  
+- 🎭 Identify dominant genres  
+- 🌍 Analyze production countries  
+- 🔞 Study age classification patterns  
+- 📈 Track catalog evolution over time  
+- 💡 Generate actionable business insights  
 
-💡 Generate actionable business insights
+---
 
-🧹 Data Preparation & Cleaning
+## 🧹 Data Preparation & Transformation
 
-Handling missing values
+- Handling missing values  
+- Removing duplicates  
+- Normalizing multi-value columns (`country`, `listed_in`)  
+- Date formatting & feature engineering  
+- Exporting clean dataset for BI  
 
-Removing duplicates
+---
 
-Normalizing multi-value columns (country, listed_in)
+## 📊 Analytical Visualizations
 
-Converting date formats
+- Bar Charts → Type, Rating, Genre, Country  
+- Pie Charts → Movies vs TV Shows  
+- Line Charts → Content evolution over time  
+- Heatmaps → Multi-variable analysis  
 
-Feature engineering:
+---
 
-Year Added
+## 💡 Key Insights
 
-Month Added
+- Movies dominate the catalog.  
+- Drama & Comedy are the most frequent genres.  
+- Strong growth between 2015–2020.  
+- Majority of content targets mature audiences.  
 
-Duration (minutes)
+---
 
-Dataset exported for BI integration
+## 👩‍💻 Author
 
-📊 Analytical Visualizations
-
-The analysis includes:
-
-📌 Bar Charts → Content type, ratings, genres, countries
-
-🥧 Pie Charts → Movies vs TV Shows proportion
-
-📈 Line Charts → Content added per year
-
-🔥 Heatmaps → Multi-variable analysis
-
-📊 Comparative charts → Films vs Series trends
-
-All visualizations are clean, annotated, and business-focused.
-
-💡 Key Insights
-
-🎬 Movies dominate the catalog.
-
-🎭 Drama and Comedy are the most frequent genres.
-
-🌍 Production is concentrated in a limited number of countries.
-
-📈 Significant growth between 2015 and 2020.
-
-🔞 Majority of content targets mature audiences (TV-MA, TV-14).
-
-📈 Power BI Dashboard (Next Phase)
-
-An interactive dashboard will include:
-
-Dynamic filters (Type, Genre, Country, Year)
-
-KPI cards
-
-Trend analysis
-
-Executive summary view
-
-🛠️ Technologies Used
-
-Python
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-Power BI
-
-👩‍💻 Author
-
-Safa Nya
+**Safa Nya**  
 Data Analyst | Python | Business Intelligence
