@@ -1,231 +1,156 @@
-🎬 Netflix Catalogue Analytics Project
-📌 Contexte
+🎬 Netflix Catalog Analytics
+📊 Data Analysis Project | Python • Pandas • Power BI
+🏢 Project Context
 
-Dans le cadre de ce projet, nous intervenons en tant que Data Analyst pour une plateforme de streaming souhaitant analyser son catalogue Netflix.
+As a Data Analyst, the objective of this project is to analyze the Netflix catalog to provide strategic insights for business decision-making.
 
-L’objectif est de fournir à la direction une vision claire et stratégique du catalogue afin d’identifier :
+The management team aims to better understand:
 
-Les tendances et performances des contenus
+📈 Content performance and trends
 
-La répartition des films vs séries
+🎥 Distribution of Movies vs TV Shows
 
-Les genres et pays de production dominants
+🌍 Production countries
 
-La classification d’âge des contenus
+🎭 Dominant genres
 
-L’évolution du catalogue dans le temps
+🔞 Age classifications
 
-Ce projet couvre l’ensemble de la chaîne analytique :
-Exploration → Nettoyage → Transformation → Visualisation → Insights → Dashboard
+📅 Evolution of the catalog over time
 
-🎯 Objectif Final
+This project covers the full analytics lifecycle:
 
-Produire :
+🔎 Exploration → 🧹 Cleaning → 📊 Visualization → 💡 Insights → 📈 BI Dashboard Preparation
 
-📊 Un rapport analytique complet
+🎯 Project Objectives
 
-📈 Des visualisations claires et pertinentes
+✔ Perform Exploratory Data Analysis (EDA)
 
-📌 Des insights métier actionnables
+✔ Clean and transform raw data
 
-📉 Un dataset préparé pour un dashboard interactif Power BI
+✔ Generate clear and actionable visualizations
 
-🛠 Technologies utilisées
+✔ Extract business insights
 
-Python
+✔ Prepare dataset for an interactive Power BI dashboard
 
-Pandas
+🛠️ Tech Stack
 
-Matplotlib
 
-Seaborn
 
-Power BI
 
-📝 Objectifs du Projet
 
-Explorer et analyser le dataset Netflix avec Python et Pandas
 
-Produire des visualisations pertinentes
 
-Répondre aux questions métier liées au catalogue
 
-Identifier les tendances clés
 
-Préparer les données pour un dashboard interactif
 
-📊 Étapes du Projet
-1️⃣ Exploration des Données (EDA)
-🎯 Objectif
+🔎 1️⃣ Exploratory Data Analysis (EDA)
 
-Comprendre la structure du dataset avant toute transformation.
+Dataset structure analysis (info(), describe())
 
-🔎 Analyses réalisées
+Missing values detection
 
-Vérification de la structure (info(), describe())
+Duplicate identification
 
-Analyse des types de données
+Distribution analysis:
 
-Identification des valeurs manquantes (director, country, rating…)
+Movies vs TV Shows
 
-Détection des doublons
-
-Analyse des distributions :
-
-Films vs séries
+Ratings
 
 Genres
 
-Pays
+Countries
 
-Classification d’âge
+Initial visualizations (bar charts, histograms, countplots)
 
-📈 Visualisations exploratoires
+🧹 2️⃣ Data Cleaning & Preparation
 
-Count plots
+Handling missing values
 
-Histogrammes
+Removing duplicates
 
-Bar charts
+Splitting multi-value columns (country, listed_in)
 
-Boxplots
-
-⚠️ Durant cette étape, aucun nettoyage définitif n’est appliqué afin de préserver l’intégrité des données brutes.
-
-2️⃣ Préparation et Nettoyage des Données
-🎯 Objectif
-
-Préparer un dataset propre et structuré pour l’analyse finale et Power BI.
-
-🔄 Transformations effectuées
-
-Gestion des valeurs manquantes (remplacement ou suppression)
-
-Suppression des doublons
-
-Transformation des colonnes multi-valeurs :
-
-listed_in (genres)
-
-country
-
-Création de colonnes dérivées :
+Feature engineering:
 
 year_added
 
 month_added
 
-day_added
+duration_minutes
 
-Durée en minutes
+Formatting consistency (dates, duration, content type)
 
-Nombre de saisons
+The cleaned dataset is exported for BI integration.
 
-Harmonisation des formats (dates, durées, type)
+📊 3️⃣ Business Analysis & Visualizations
+🎥 Content Distribution
 
-Ces transformations permettent d’améliorer la lisibilité et la performance analytique.
+Movies vs TV Shows ratio
 
-3️⃣ Analyse Métier & Visualisations
-🎯 Objectif
+Age rating distribution
 
-Répondre aux questions stratégiques de la direction.
+🌍 Country Analysis
 
-📌 Questions analysées
+Top producing countries
 
-Quelle est la proportion de films vs séries ?
+Country vs rating analysis
 
-Quelle est la répartition par classification d’âge ?
+🎭 Genre Analysis
 
-Quels sont les genres les plus fréquents ?
+Most frequent genres
 
-Quels pays produisent le plus de contenus ?
+Category dominance
 
-Comment le catalogue évolue-t-il dans le temps ?
+📈 Time Evolution
 
-Combien de séries ont été ajoutées entre 2011 et 2021 ?
+Content added per year
 
-Quelle est la relation entre pays et classification d’âge ?
+Growth trends
 
-📊 Types de visualisations utilisées
+Series count between 2011–2021
 
-Bar charts
+💡 Key Insights
 
-Pie charts
+🎬 Movies dominate the catalog.
 
-Line charts (évolution temporelle)
+🎭 Drama and Comedy are the most frequent genres.
 
-Heatmaps (analyse croisée)
+🌍 A small number of countries dominate production.
 
-Graphiques combinés
+📈 Strong growth between 2015–2020.
 
-Toutes les visualisations sont :
+🔞 TV-MA and TV-14 are the most common classifications.
 
-Claires
+These findings support strategic decisions related to content acquisition and production.
 
-Annotées
+📈 Power BI Dashboard (Next Phase)
 
-Lisibles
+The cleaned dataset will be integrated into Power BI to create:
 
-Axées sur la prise de décision
+Interactive filters (Type, Genre, Country, Year)
 
-4️⃣ Insights Métier
-🎯 Objectif
+KPI indicators
 
-Interpréter les résultats et fournir des recommandations.
+Dynamic trend analysis
 
-Les analyses ont permis d’identifier :
+Executive-level insights dashboard
 
-Les genres dominants du catalogue
+🚀 Skills Demonstrated
 
-Les principaux pays producteurs
+Data Cleaning
 
-Les classifications d’âge majoritaires
+Exploratory Data Analysis
 
-Les tendances d’ajout de contenu par année
+Data Visualization
 
-L’évolution stratégique du catalogue
+Business Intelligence Preparation
 
-Ces insights permettent à la direction de :
+Insight Communication
 
-Mieux comprendre la stratégie de contenu
+👩‍💻 Author
 
-Identifier les opportunités d’expansion
-
-Ajuster les investissements futurs
-
-5️⃣ Dashboard Power BI
-🎯 Objectif
-
-Créer un outil interactif pour la prise de décision.
-
-🔧 Fonctionnalités prévues
-
-Filtres dynamiques :
-
-Type (Movie / TV Show)
-
-Pays
-
-Genre
-
-Année d’ajout
-
-KPIs principaux
-
-Visualisations interactives
-
-Vue synthétique des tendances clés
-
-⚠️ Les transformations appliquées dans Power BI restent cohérentes avec celles réalisées en Python.
-
-🚀 Résultat Attendu
-
-Un pipeline analytique complet permettant :
-
-Une compréhension approfondie du catalogue
-
-Une visualisation stratégique des tendances
-
-Une aide à la décision basée sur les données
-
-Une base solide pour un dashboard interactif
+Safa Nya
+📊 Data Analyst | Python | Business Intelligence
